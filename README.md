@@ -14,7 +14,7 @@ yarn run serve
 ```
 yarn run build
 ```
-### Demo: https://vue-super-app-with-google-maps.herokuapp.com
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

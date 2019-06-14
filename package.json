@@ -1,15 +1,29 @@
 {
-  "name": "map-app",
-  "version": "0.1.0",
+  "name": "vue-super-app-with-google-maps",
+  "version": "1.0.0",
+  "description": "Vue.js application with Google Maps API",
+  "keywords": [
+    "vue.js",
+    "google maps"
+  ],
+  "author": {
+    "name": "Alex Radin",
+    "email": "web.alexradin@gmail.com"
+  },
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "express": "^4.17.1",
+    "uniqid": "^5.0.3",
+    "vue": "^2.6.10",
+    "vuedraggable": "^2.21.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",

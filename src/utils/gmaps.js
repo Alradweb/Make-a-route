@@ -1,4 +1,4 @@
-import {API_KEY} from "../../key"
+import {API_KEY} from "./key"
 
 export const createMapScript = function (cb) {
     const script = document.createElement('script')
